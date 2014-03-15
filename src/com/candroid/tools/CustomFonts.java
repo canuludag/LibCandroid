@@ -12,7 +12,7 @@ public class CustomFonts {
 
 	Typeface droidSans, droidSansBold;
 	Typeface robotoRegular, robotoBold;
-	Typeface helveticaNeue;
+	Typeface helveticaNeue, helveticaNeueBold;
 	Context context;
 	Fragment fragment;
 
@@ -37,7 +37,9 @@ public class CustomFonts {
 		robotoBold = Typeface.createFromAsset(context.getAssets(),
 				"fonts/roboto_bold.ttf");
 		helveticaNeue = Typeface.createFromAsset(context.getAssets(),
-				"fonts/helvetica_neue_thin.ttf");
+				"fonts/helvetica_neue_light.ttf");
+		helveticaNeueBold = Typeface.createFromAsset(context.getAssets(),
+				"fonts/helvetica_neue_bold.ttf");
 
 	}
 
@@ -55,7 +57,9 @@ public class CustomFonts {
 		robotoBold = Typeface.createFromAsset(fragment.getActivity()
 				.getAssets(), "fonts/roboto_bold.ttf");
 		helveticaNeue = Typeface.createFromAsset(fragment.getActivity()
-				.getAssets(), "fonts/helvetica_neue_thin.ttf");
+				.getAssets(), "fonts/helvetica_neue_light.ttf");
+		helveticaNeueBold = Typeface.createFromAsset(fragment.getActivity()
+				.getAssets(), "fonts/helvetica_neue_bold.ttf");
 
 	}
 
@@ -96,6 +100,12 @@ public class CustomFonts {
 		case 4:
 
 			nakedTextView.setTypeface(helveticaNeue);
+
+			break;
+
+		case 5:
+
+			nakedTextView.setTypeface(helveticaNeueBold);
 
 			break;
 
