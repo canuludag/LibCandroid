@@ -3,7 +3,7 @@
  * 	This is a custom library for helping tedious tasks in Android.
  * 
  * 	GNU Public Licence
-    Copyright (C) 2013  Can ULUDAÐ
+    Copyright (C) 2013  Can ULUDAG
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -141,7 +141,7 @@ public class FindLocation extends Service implements LocationListener {
 	}
 
 	// FUNCTION TO GET LATITUDE
-	public double getLatitdue() {
+	public double getLatitude() {
 		if (location != null) {
 			latitude = location.getLatitude();
 		}
