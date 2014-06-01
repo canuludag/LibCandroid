@@ -51,7 +51,7 @@ public class CustomFonts {
 
 		this.fragment = frag;
 
-		givenFont = Typeface.createFromAsset(context.getAssets(), fontPath);
+		givenFont = Typeface.createFromAsset(fragment.getActivity().getAssets(), fontPath);
 
 	}
 
