@@ -1,3 +1,6 @@
+## NOT: This project is old and probably some codes were deprecated.
+#### It is no longer contributed.
+
 This is a custom library for helping tedious tasks in Android.
 
 GNU Public Licence
@@ -26,7 +29,7 @@ This class have built-in font types to use for your TextView, EditText and Butto
 	Typeface droidSans, droidSansBold;
 	Typeface robotoRegular, robotoBold;
 	Typeface helveticaNeue, helveticaNeueBold;
-
+	
 To use it. Simply create an instance of this class and use wearFont() method.
 
 	CustomFonts mFont = new CustomFonts(this);
